@@ -14,8 +14,8 @@ public class Drivetrain extends SubsystemBase {
   private final double MAX_DRIVE_SPEED = 0.25;
   private final double MAX_DRIVE_INPUT_RATE = 1.0;
 
-  private final double MAX_TURN_SPEED = 0.5;
-  private final double MAX_TURN_INPUT_RATE = 2.0;
+  private final double MAX_TURN_SPEED = 0.25;
+  private final double MAX_TURN_INPUT_RATE = 1.0;
 
   private final MotionProfile driveProfile;
   private final MotionProfile turnProfile;
